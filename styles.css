@@ -1,37 +1,6 @@
 body{
     background-color: aliceblue;
-    width:450px;
-    height:300px;
-    padding-top:20px;
-    font-size:16px;
-    font-family:"Tahoma", sans-serif;
-    line-height:1.3;
 }
-.none {
-    display: none !important;
-}
-
-p {
-    margin: 0 0 5px;
-}
-
-.parent {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    overflow: auto;
-}
-
-.center{
-    width: 240px;
-    text-align: center;
-    top: 0;
-    left: 0;
-    overflow: auto;
-}
-
 .block {
     background-color: #f7fdca;
     width: 650px;
@@ -43,15 +12,6 @@ p {
     bottom: 0;
     left: 0;
     margin: auto;
-}
-
-.area_email {
-    display: inline;
-    background-color:#F8FBFC;
-    color:#415E91;
-    border:#5B8CDA 2px solid;
-    width:380px;
-    height:30px;
 }
 
 /* Базовые стили формы */
@@ -77,30 +37,12 @@ form{
     padding:10px;
     margin-bottom:30px;
 }
-.message:focus,
+
 .textbox:focus{
     outline:none;
     border:rgba(24,149,215,1) 2px solid;
     color:rgba(24,149,215,1);
 }
-/* Стили текстового поля */
-.message{
-    background: rgba(255, 255, 255, 0.4);
-    width:100%;
-    height: 120px;
-    border:rgba(0,0,0,.3) 2px solid;
-    box-sizing:border-box;
-    -moz-border-radius: 3px;
-    font-size:18px;
-    font-family: 'Open Sans', sans-serif;
-    -webkit-border-radius: 3px;
-    border-radius: 3px;
-    display:block;
-    padding:10px;
-    margin-bottom:30px;
-    overflow:hidden;
-}
-
 label{
     font-family: 'Open Sans', sans-serif;
     font-weight:400;
@@ -127,13 +69,3 @@ label{
     background:#80b438;
 }
 
-.colorgraph {
-    height: 5px;
-    border-top: 0;
-    background: #c4e17f;
-    border-radius: 5px;
-    background-image: -webkit-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
-    background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
-    background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
-    background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
-}

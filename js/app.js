@@ -18,10 +18,9 @@ class Subscription extends React.Component {
             return false;
         }
         else {
-
             $.ajax({
                     type: "POST",
-                    url: "/get",
+                    url: "/post",
                     data: this.state,
                     success: function () {
                         alert("Данные отправлены");

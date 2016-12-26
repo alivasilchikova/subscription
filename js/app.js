@@ -14,7 +14,7 @@ class Subscription extends React.Component {
     handleSubmit(event) {
         var r = this.state.value.match(/^[0-9a-z-\.]+\@[0-9a-z-]{2,}\.[a-z]{2,}$/i);
         if (!r){
-            alert('Уверены что email введен верно?');
+            alert('E-mail is entered incorrectly');
             return false;
         }
         else {
@@ -23,7 +23,7 @@ class Subscription extends React.Component {
                     url: "/post",
                     data: this.state,
                     success: function () {
-                        alert("Данные отправлены");
+                        alert("You are subscribed!");
                     }
                 }
             )
